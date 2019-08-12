@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BmobDemo</string>
+    <string name="Open">打开菜单</string>
+    <string name="Close">关闭</string>
+</resources>

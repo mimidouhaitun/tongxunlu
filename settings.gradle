@@ -1,0 +1,1 @@
+include ':bmobdemo', ':testcardview', ':day04_layout_04(navigationview)', ':day10_menu_01'

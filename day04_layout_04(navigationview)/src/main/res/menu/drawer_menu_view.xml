@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item01"
+            android:icon="@mipmap/ic_launcher"
+            android:title="title-A" />
+        <item
+            android:id="@+id/item02"
+            android:icon="@mipmap/ic_launcher"
+            android:title="title-B" />
+    </group>
+    <item android:title="submenu">
+        <menu>
+            <item
+                android:id="@+id/subitem01"
+                android:icon="@mipmap/ic_launcher"
+                android:title="child-item-01" />
+            <item
+                android:id="@+id/subitem02"
+                android:icon="@mipmap/ic_launcher"
+                android:title="child-item-02" />
+        </menu>
+    </item>
+</menu>
